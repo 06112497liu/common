@@ -1,14 +1,11 @@
 package com.bean;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
-
 /**
  * 接口服务结果
  *
- * @author jintao
+ * @author tjwang
  */
-@JsonInclude(Include.NON_NULL)
+//@JsonInclude(Include.NON_NULL)
 public class RestResult {
     /**
      * 成功代码
